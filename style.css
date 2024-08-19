@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background: url(https://static.vecteezy.com/system/resources/previews/005/592/877/original/abstract-dark-purple-background-overlap-layer-on-dark-space-for-background-design-exclusive-wallpaper-design-for-poster-brochure-presentation-website-etc-vector.jpg);
+}
+.row{
+    background-color: rgb(110, 1, 45);
+    width: 400px;
+    height: 600px;
+    margin-top: 130px;
+    margin-left: 550px;
+    border-radius: 40px;
+}
+.row h1{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    padding: 50px;
+    
+}
+/* input-weight*/
+.input-group {
+    position: relative;
+    margin-left: 90px;
+   }
+   
+   .input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15px;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #91c0ff;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #180526;
+    padding: 0 .2em;
+    color: #2196f3;
+   }
+   /* input-height */
+   .input-group2 {
+    position: relative;
+    margin-left: 90px;
+    margin-top: 30px;
+   }
+   
+   .input {
+    border: solid 1.5px #9e9e9e;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15px;
+    color: #e8e8e8;
+    pointer-events: none;
+    transform: translateY(1rem);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #91c0ff;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: #180526;
+    padding: 0 .2em;
+    color: #2196f3;
+   }
+/* delete-button */ 
+.button1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition-duration: .3s;
+    overflow: hidden;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: .3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .button1:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: .3s;
+    background-color: rgb(255, 69, 69);
+    align-items: center;
+  }
+  
+  .button1:hover .svgIcon {
+    width: 50px;
+    transition-duration: .3s;
+    transform: translateY(60%);
+  }
+  
+  .button1::before {
+    position: absolute;
+    top: -20px;
+    content: "Delete";
+    color: white;
+    transition-duration: .3s;
+    font-size: 2px;
+  }
+  
+  .button1:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    transform: translateY(30px);
+    transition-duration: .3s;
+  }
+  /* check my bmi button */
+.button2{
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 30px;
+  margin-left: 150px;
+  border-style: none;
+  margin-top: 20px;
+}
+.button2:hover{
+  transition: 0.4s ease-in-out;
+  scale: 1.1;
+  background-color: green;
+  color: white;
+}
+  .row h2{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #fff;
+  }
+  #ans{
+    margin-left: 190px;
+    color: #fff;
+  }
+  #val{
+    margin-left: 130px;
+    margin-top: 10px;
+  }
